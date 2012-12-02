@@ -1,16 +1,20 @@
-Inspired by this thread
+# Description
+Scripts and configuration files for adjusting the brightness on laptop that are using an Intel video card.
+
+The code was inspired by this thread
 http://ubuntuforums.org/showthread.php?t=2033273
 
 The script should work with all intel devices that exposes /sys/class/backlight/intel_backlight
 
-*To install*
+
+##To install
 
 1- clone the repo
 2- sudo cp etc/acpi/events/* /etc/acpi/events/
 3- sudo cp etc/acpi/* /etc/acpi/
 4- sudo service acpid restart
 
-*To detect what are your FN keys*
+##To detect what are your FN keys
 acpi_listen
 
 and press the brightness up and down key.
@@ -26,6 +30,4 @@ the first line of the configuration files:
 etc/acpi/events/acer-tm-brightness-down
 etc/acpi/events/acer-tm-brightness-up
 
-Don't forget to restart acpid when you change the  
-
-
+Don't forget to restart acpid when you change the files
