@@ -14,7 +14,7 @@ The script should work with all intel devices that exposes /sys/class/backlight/
 * sudo cp etc/acpi/* /etc/acpi/
 * sudo service acpid restart
 
-##To detect what are your FN keys
+##To detect what is the code of your brightness keys
 start acpi_listen
 
 Then press the brightness up and brightness down key.
