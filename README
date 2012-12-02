@@ -1,9 +1,0 @@
-Inspired by this thread
-http://ubuntuforums.org/showthread.php?t=2033273
-
-
-To install
-
-sudo cp etc/acpi/events/* /etc/acpi/events/
-sudo cp etc/acpi/* /etc/acpi/
-sudo service acpid restart
