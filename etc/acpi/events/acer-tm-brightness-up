@@ -1,2 +1,2 @@
-event=video DD02 00000086 00000000
+event=video/brightnessup BRTUP 00000086 00000000
 action=/etc/acpi/acer-tm-brightup.sh
